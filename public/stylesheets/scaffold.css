@@ -1,0 +1,453 @@
+#tabs {
+	float:left;
+	width:100%;
+	font-size:93%;
+	line-height:normal;
+	border-bottom:1px solid #666;
+	margin-bottom:1em; /*margin between menu and rest of page*/
+	overflow:hidden;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 0px;
+	list-style:none;
+
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("/images/left.png") no-repeat left top;
+	margin:0;
+	padding:0 0 0 6px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("/images/right.png") no-repeat right top;
+	padding:6px 15px 4px 6px;
+	margin-right:2px;
+	color:#FFF;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
+
+
+#nav-menu ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#nav-menu li
+{
+float: left;
+margin: 0 0.15em;
+}
+
+#nav-menu li a
+{
+background: url(background.gif) #fff bottom left repeat-x;
+height: 2em;
+line-height: 2em;
+float: left;
+width: 9em;
+display: block;
+border: 0.1em solid #dcdce9;
+color: #0d2474;
+text-decoration: none;
+text-align: center;
+}
+
+/* Hide from IE5-Mac \*/
+#nav-menu li a
+{
+float: none
+}
+/* End hide */
+
+#nav-menu
+{
+width:30em
+}
+
+.sidebar_box {
+background-color: #66CCFF;
+border: 1px solid #aaa;
+font-size: 12px;
+margin-bottom: 10px;
+}
+.sidebar_box h2 {
+margin-top: 0px;
+padding: 6px;
+background-color: #0099FF;
+font-size: 13px;
+color: maroon;
+font-weight:bold;
+}
+.sidebar_box p {
+padding-left: 6px;
+padding-right: 6px;
+}
+.sidebar_box .header {
+float: left;
+}
+.sidebar_box .edit_link {
+float: right;
+}
+
+/* Spec Style */
+#full_name {
+font-size: xx-large;
+}
+#occupation{
+font-size: x-large;
+}
+#location {
+font-size: large;
+}
+
+/* FAQ Style */
+.faq {
+float: left;
+padding: 20px;
+}
+#bio {
+padding: 10px;
+}
+.sidebar_box_contents, .faq_answer {
+padding: 0 10px 10px 10px;
+}
+.faq_answer textarea {
+width: 280px;
+background: #ff9;
+}
+
+.divmain
+{
+    height:40px;
+   width: 700px;
+}
+.divhead
+{
+    height: 40px;
+    width:100px;
+
+}
+.divtail
+{
+    height: 40px;
+    width:400px;
+
+}
+
+submit
+{
+    width:100px;
+    height:20px;
+    background-color:Blue;
+    color:white;
+    font-weight:bold;
+}
+
+.divsearch
+{
+    text-align:center;
+    background-image:url(/images/searchgroup.jpg);
+    width:205px;
+    border-style:solid;
+    height:157px;
+    border-color:white;
+    margin-left:20px;
+    
+}
+.divrecord
+{
+    text-align:left;
+    width:600px;
+    height:500px;
+    margin-left:20px;
+}
+.divcgmatter
+{
+ margin-top:40px;
+ text-align:left;
+ margin-left:20px;
+}
+.divcreategroup
+{
+    text-align:center;
+    background-image:url(/images/creategroup.jpg);
+    width:200px;
+    height:170px;
+    border-style:solid;
+    border-color:white;
+    margin-left:25px;
+    margin-top:20px;
+}
+
+.select
+{
+    width:170px;
+   
+}
+.JoinDiv
+{
+    width:320px;
+    height:270px;
+    border: 1px solid #8ab3d1;
+   
+}
+.Joindivmain
+{
+   margin-left:10px;
+   margin-right:10px;
+   font-weight:bold;
+   font-size:11px;
+
+}
+.signheader
+{
+   text-align:left;
+   vertical-align:middle;
+   height:30px;
+   font-size:15px;
+   color:white;
+   font-weight:bold;
+   background-color:#8ab3d1;
+   margin-bottom:10px;
+}
+.submit_button
+{
+    background-image:url(/images/join.jpg);
+    width:100px;
+    height:30px;
+    
+}
+.divlogin
+{
+    width:500px;
+    margin-top:20px;
+    border:1px solid #8ab3d1;
+    height:200px;
+    vertical-align:middle;
+    margin-left:20px;
+    font-size:15px;
+}
+.divsign
+{
+    vertical-align:middle;
+    margin-left:20px;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+txtbox
+{
+    width:300px;
+
+}
+
+.divjobs
+{
+    width:500px;
+    height:100px;
+    font-size:15px;
+      
+}
+#toppage{
+	width:800px;
+}
+#date{
+	float:left; width:190px; height:39px; border-bottom:solid 1px #999999; border-right:solid 1px #999999;
+}
+#topbar{
+	float:left;
+	width:608px;
+	height:40px;
+	background-image:url(bg_topbar.gif);
+	background-color:#CBC55C;
+	background-repeat:repeat-x;
+	border-right:solid 1px #999999;
+}
+#header{
+	width:800px;
+}
+#content
+{
+	width:1000px;
+}
+.maindiv
+{
+	width:800px;
+        margin-left:100px;
+        
+}
+#logo{
+	float:left; width:190px; height:110px; background-color:#F7F7F7; border-left:solid 1px #999999;
+}
+#pagetitle{
+	position:relative; float:left; width:608px; height:110px; background-color:#F7F7F7; border-right:solid 1px #999999;
+}
+#title{
+	position:absolute; right:10px; bottom:0px; width:600px;
+}
+#menu{
+	float:left; width:190px; margin:0px;
+}
+.panel{
+	padding:12px;
+	border:solid 1px #E4E4E4;
+	background-color:#EEEEEE;
+	margin:10px;
+	padding:10px;
+	width:550px;
+	height:160px;
+}
+
+.smallwhitetext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #FFFFFF;
+}
+.smallwhitetext a{
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.smallwhitetext a:hover{
+	text-decoration:underline;
+}
+.smallgraytext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#CCCCCC;
+}
+.smallgraytext a{
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color:#CCCCCC;
+	text-decoration:none;
+}
+.smallgraytext a:hover{
+	text-decoration:underline;
+}
+.titletext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color: #CCCCCC;
+}
+.logotext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color: #999999;
+}
+.orangelogotext {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color:#FF9900;
+}
+.orangetitle {
+	font: 0.7em Tahoma, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#FF9900;
+}
+#linksmenu a
+{
+	float:right;
+	width:183px;
+	height:20px;
+	background-color:#8ab3d1; border-left:solid 1px #FFFFFF; border-bottom:solid 1px #FFFFFF;
+	font: 0.7em Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-decoration:none;
+	padding-top:5px;
+}
+#linksmenu a:hover{
+	background-color:#145871;
+}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+#notice {
+  border: 1px solid green;
+  padding: 1em;
+  margin: 1em;
+  margin-bottom: 2em;
+  background-color: lightgray;
+  font: bold smaller sans-serif;
+  width:860px;
+}
+
+
+.Aboutimg
+{
+    float:left;
+    width:90px; height:117px;
+    border:#027646;
+}
