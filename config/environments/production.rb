@@ -29,11 +29,11 @@ config.action_view.cache_template_loading            = true
 config.action_mailer.raise_delivery_errors = true
 ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
-   :address => "smtp.gmail.com",
+   :address => "smtp.domain.com",
    :port => 587,
-   :domain => "gmail.com",
+   :domain => "domain.com",
    :authentication => :login,
-   :user_name => "get2gethertoday@gmail.com",
-   :password => "fortunedesire",
+   :user_name => "username",
+   :password => "password",
 }
 ActionMailer::Base.default_content_type = "text/html"
