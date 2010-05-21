@@ -21,7 +21,7 @@ ActionMailer::Base.smtp_settings = {
    :port => 587,
    :domain => "gmail.com",
    :authentication => :login,
-   :user_name => "get2gethertoday@gmail.com",
-   :password => "fortunedesire",
+   :user_name => "username",
+   :password => "password",
 }
 ActionMailer::Base.default_content_type = "text/html"
